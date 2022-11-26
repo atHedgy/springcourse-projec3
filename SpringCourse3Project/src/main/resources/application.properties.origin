@@ -1,0 +1,9 @@
+# Конфигурация (Data Source)
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.url=jdbc:postgresql://IP:5432/DBNAME
+spring.datasource.username=
+spring.datasource.password=
+
+# Конфигурация Hibernate
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.show_sql=true
